@@ -3,18 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B07EB61F313F267E161910 /* Pods_Stonks__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE9D1A34EA33C5763CD2CC /* Pods_Stonks__macOS_.framework */; };
+		D30E2E72DC7F9F1A68EE3A6A /* Pods_Stonks__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D9C391F1780A91EF1E452 /* Pods_Stonks__iOS_.framework */; };
+		E449C3652658E187003FF248 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C3642658E187003FF248 /* CourseItem.swift */; };
+		E449C3662658E187003FF248 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C3642658E187003FF248 /* CourseItem.swift */; };
+		E449C36C265909D5003FF248 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C36B265909D5003FF248 /* CourseModel.swift */; };
+		E449C36D265909D5003FF248 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C36B265909D5003FF248 /* CourseModel.swift */; };
+		E449C3732659332F003FF248 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C3722659332F003FF248 /* CloseButton.swift */; };
+		E449C3742659332F003FF248 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C3722659332F003FF248 /* CloseButton.swift */; };
+		E449C37A265935FE003FF248 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C379265935FE003FF248 /* CourseDetail.swift */; };
+		E449C37B265935FE003FF248 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C379265935FE003FF248 /* CourseDetail.swift */; };
+		E449C38F26595451003FF248 /* CourseRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C38E26595451003FF248 /* CourseRowModel.swift */; };
+		E449C39026595451003FF248 /* CourseRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C38E26595451003FF248 /* CourseRowModel.swift */; };
+		E449C396265956EB003FF248 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C395265956EB003FF248 /* VisualEffectBlur.swift */; };
+		E484C37B265985FF00F9161D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C37A265985FF00F9161D /* AppDelegate.swift */; };
+		E484C381265987B300F9161D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C380265987B300F9161D /* BlurView.swift */; };
+		E484C38726598B9100F9161D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C38626598B9100F9161D /* LoadingView.swift */; };
+		E484C38D26598B9E00F9161D /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C38C26598B9E00F9161D /* SuccessView.swift */; };
+		E484C39326598BE700F9161D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C39226598BE700F9161D /* LottieView.swift */; };
+		E484C39B26598C2100F9161D /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = E484C39926598C2100F9161D /* loading.json */; };
+		E484C39C26598C2100F9161D /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = E484C39A26598C2100F9161D /* success.json */; };
 		E4C881D826584A8700A5E839 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881D726584A8700A5E839 /* Tests_iOS.swift */; };
 		E4C881E326584A8700A5E839 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881E226584A8700A5E839 /* Tests_macOS.swift */; };
 		E4C881E526584A8700A5E839 /* StonksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881BC26584A8300A5E839 /* StonksApp.swift */; };
 		E4C881E626584A8700A5E839 /* StonksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881BC26584A8300A5E839 /* StonksApp.swift */; };
-		E4C881E726584A8700A5E839 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881BD26584A8300A5E839 /* ContentView.swift */; };
-		E4C881E826584A8700A5E839 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881BD26584A8300A5E839 /* ContentView.swift */; };
 		E4C881E926584A8700A5E839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C881BE26584A8700A5E839 /* Assets.xcassets */; };
 		E4C881EA26584A8700A5E839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C881BE26584A8700A5E839 /* Assets.xcassets */; };
+		E4C881FE2658522800A5E839 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881FD2658522800A5E839 /* CourseRow.swift */; };
+		E4C881FF2658522800A5E839 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881FD2658522800A5E839 /* CourseRow.swift */; };
+		E4C882052658540700A5E839 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C882042658540700A5E839 /* CoursesView.swift */; };
+		E4C882062658540700A5E839 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C882042658540700A5E839 /* CoursesView.swift */; };
+		E4C8820C26585BA800A5E839 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8820B26585BA800A5E839 /* Sidebar.swift */; };
+		E4C8820D26585BA800A5E839 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8820B26585BA800A5E839 /* Sidebar.swift */; };
+		E4D74A2F2659AAF10005FB25 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D74A2E2659AAF10005FB25 /* TabBar.swift */; };
+		E4D74A302659AAF10005FB25 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D74A2E2659AAF10005FB25 /* TabBar.swift */; };
+		E4D74A3A265A0F5F0005FB25 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C38626598B9100F9161D /* LoadingView.swift */; };
+		E4D74A3B265A0F5F0005FB25 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C380265987B300F9161D /* BlurView.swift */; };
+		E4D74A3C265A0F5F0005FB25 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C39226598BE700F9161D /* LottieView.swift */; };
+		E4D74A3D265A0F5F0005FB25 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484C38C26598B9E00F9161D /* SuccessView.swift */; };
+		E4D74A59265A1DB60005FB25 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D74A58265A1DB60005FB25 /* WidgetKit.framework */; };
+		E4D74A5B265A1DB60005FB25 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D74A5A265A1DB60005FB25 /* SwiftUI.framework */; };
+		E4D74A5E265A1DB60005FB25 /* StonksWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D74A5D265A1DB60005FB25 /* StonksWidget.swift */; };
+		E4D74A61265A1DB90005FB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D74A60265A1DB90005FB25 /* Assets.xcassets */; };
+		E4D74A63265A1DB90005FB25 /* StonksWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E4D74A5F265A1DB60005FB25 /* StonksWidget.intentdefinition */; };
+		E4D74A64265A1DB90005FB25 /* StonksWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E4D74A5F265A1DB60005FB25 /* StonksWidget.intentdefinition */; };
+		E4D74A67265A1DB90005FB25 /* StonksWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E4D74A57265A1DB60005FB25 /* StonksWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4D74A77265A1F600005FB25 /* CourseRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C38E26595451003FF248 /* CourseRowModel.swift */; };
+		E4D74A94265A21950005FB25 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C36B265909D5003FF248 /* CourseModel.swift */; };
+		E4D74AAA265A247B0005FB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C881BE26584A8700A5E839 /* Assets.xcassets */; };
+		E4D74AC0265A25340005FB25 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C881FD2658522800A5E839 /* CourseRow.swift */; };
+		E4D74AC7265A27860005FB25 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D74AC6265A27860005FB25 /* CourseList.swift */; };
+		E4D74AC8265A27860005FB25 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D74AC6265A27860005FB25 /* CourseList.swift */; };
+		E4F8C99026597C6400AD3C09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8C98F26597C6400AD3C09 /* LoginView.swift */; };
+		E4F8C99126597C6400AD3C09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8C98F26597C6400AD3C09 /* LoginView.swift */; };
+		E4F8C9A32659827300AD3C09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4F8C9A22659827300AD3C09 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,11 +78,48 @@
 			remoteGlobalIDString = E4C881CA26584A8700A5E839;
 			remoteInfo = "Stonks (macOS)";
 		};
+		E4D74A65265A1DB90005FB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C881B726584A8200A5E839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4D74A56265A1DB60005FB25;
+			remoteInfo = StonksWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E4D74A6B265A1DB90005FB25 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E4D74A67265A1DB90005FB25 /* StonksWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		42EE9D1A34EA33C5763CD2CC /* Pods_Stonks__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stonks__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A027B5B39946DB24BE1092C /* Pods-Stonks (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stonks (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Stonks (macOS)/Pods-Stonks (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		9BE199D760FE001E5387B8EE /* Pods-Stonks (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stonks (iOS).release.xcconfig"; path = "Target Support Files/Pods-Stonks (iOS)/Pods-Stonks (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		D03D9C391F1780A91EF1E452 /* Pods_Stonks__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stonks__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E449C3642658E187003FF248 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		E449C36B265909D5003FF248 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		E449C3722659332F003FF248 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		E449C379265935FE003FF248 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
+		E449C38E26595451003FF248 /* CourseRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRowModel.swift; sourceTree = "<group>"; };
+		E449C395265956EB003FF248 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		E484C37A265985FF00F9161D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E484C380265987B300F9161D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		E484C38626598B9100F9161D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E484C38C26598B9E00F9161D /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		E484C39226598BE700F9161D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		E484C39926598C2100F9161D /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		E484C39A26598C2100F9161D /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		E4C881BC26584A8300A5E839 /* StonksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonksApp.swift; sourceTree = "<group>"; };
-		E4C881BD26584A8300A5E839 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4C881BE26584A8700A5E839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C881C326584A8700A5E839 /* Stonks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stonks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C881C626584A8700A5E839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +132,22 @@
 		E4C881DE26584A8700A5E839 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C881E226584A8700A5E839 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E4C881E426584A8700A5E839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C881FD2658522800A5E839 /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		E4C882042658540700A5E839 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		E4C8820B26585BA800A5E839 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		E4D74A2E2659AAF10005FB25 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E4D74A57265A1DB60005FB25 /* StonksWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StonksWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D74A58265A1DB60005FB25 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E4D74A5A265A1DB60005FB25 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E4D74A5D265A1DB60005FB25 /* StonksWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonksWidget.swift; sourceTree = "<group>"; };
+		E4D74A5F265A1DB60005FB25 /* StonksWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = StonksWidget.intentdefinition; sourceTree = "<group>"; };
+		E4D74A60265A1DB90005FB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4D74A62265A1DB90005FB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D74AC6265A27860005FB25 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		E4F8C98F26597C6400AD3C09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E4F8C9A22659827300AD3C09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE8D07A5F467D25D6A67DC5A /* Pods-Stonks (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stonks (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Stonks (iOS)/Pods-Stonks (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		FECC2DE312F9CC87623E0F4F /* Pods-Stonks (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stonks (macOS).release.xcconfig"; path = "Target Support Files/Pods-Stonks (macOS)/Pods-Stonks (macOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30E2E72DC7F9F1A68EE3A6A /* Pods_Stonks__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B07EB61F313F267E161910 /* Pods_Stonks__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +181,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4D74A54265A1DB60005FB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D74A5B265A1DB60005FB25 /* SwiftUI.framework in Frameworks */,
+				E4D74A59265A1DB60005FB25 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0B0C4EB9E4DB7ADA5A7473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03D9C391F1780A91EF1E452 /* Pods_Stonks__iOS_.framework */,
+				42EE9D1A34EA33C5763CD2CC /* Pods_Stonks__macOS_.framework */,
+				E4D74A58265A1DB60005FB25 /* WidgetKit.framework */,
+				E4D74A5A265A1DB60005FB25 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B01561C2B98CAAA517646EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D07A5F467D25D6A67DC5A /* Pods-Stonks (iOS).debug.xcconfig */,
+				9BE199D760FE001E5387B8EE /* Pods-Stonks (iOS).release.xcconfig */,
+				8A027B5B39946DB24BE1092C /* Pods-Stonks (macOS).debug.xcconfig */,
+				FECC2DE312F9CC87623E0F4F /* Pods-Stonks (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E449C3802659517E003FF248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E449C36B265909D5003FF248 /* CourseModel.swift */,
+				E449C38E26595451003FF248 /* CourseRowModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E449C381265951B4003FF248 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				E449C3642658E187003FF248 /* CourseItem.swift */,
+				E449C379265935FE003FF248 /* CourseDetail.swift */,
+				E449C3722659332F003FF248 /* CloseButton.swift */,
+				E4C881FD2658522800A5E839 /* CourseRow.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		E484C39826598C2100F9161D /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				E484C39926598C2100F9161D /* loading.json */,
+				E484C39A26598C2100F9161D /* success.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		E4C881B626584A8200A5E839 = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +252,10 @@
 				E4C881CC26584A8700A5E839 /* macOS */,
 				E4C881D626584A8700A5E839 /* Tests iOS */,
 				E4C881E126584A8700A5E839 /* Tests macOS */,
+				E4D74A5C265A1DB60005FB25 /* StonksWidget */,
 				E4C881C426584A8700A5E839 /* Products */,
+				B01561C2B98CAAA517646EDB /* Pods */,
+				5F0B0C4EB9E4DB7ADA5A7473 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +263,11 @@
 			isa = PBXGroup;
 			children = (
 				E4C881BC26584A8300A5E839 /* StonksApp.swift */,
-				E4C881BD26584A8300A5E839 /* ContentView.swift */,
+				E4D74A39265A0F3E0005FB25 /* Views */,
+				E449C381265951B4003FF248 /* Item */,
+				E4D74A46265A0FC40005FB25 /* Navigation */,
+				E449C3802659517E003FF248 /* Model */,
+				E484C39826598C2100F9161D /* Lottie */,
 				E4C881BE26584A8700A5E839 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -112,6 +280,7 @@
 				E4C881CB26584A8700A5E839 /* Stonks.app */,
 				E4C881D326584A8700A5E839 /* Tests iOS.xctest */,
 				E4C881DE26584A8700A5E839 /* Tests macOS.xctest */,
+				E4D74A57265A1DB60005FB25 /* StonksWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +288,9 @@
 		E4C881C526584A8700A5E839 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E484C37A265985FF00F9161D /* AppDelegate.swift */,
+				E449C395265956EB003FF248 /* VisualEffectBlur.swift */,
+				E4F8C9A22659827300AD3C09 /* GoogleService-Info.plist */,
 				E4C881C626584A8700A5E839 /* Info.plist */,
 			);
 			path = iOS;
@@ -151,6 +323,40 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		E4D74A39265A0F3E0005FB25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8C98F26597C6400AD3C09 /* LoginView.swift */,
+				E4C882042658540700A5E839 /* CoursesView.swift */,
+				E4D74AC6265A27860005FB25 /* CourseList.swift */,
+				E484C380265987B300F9161D /* BlurView.swift */,
+				E484C38626598B9100F9161D /* LoadingView.swift */,
+				E484C38C26598B9E00F9161D /* SuccessView.swift */,
+				E484C39226598BE700F9161D /* LottieView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4D74A46265A0FC40005FB25 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E4C8820B26585BA800A5E839 /* Sidebar.swift */,
+				E4D74A2E2659AAF10005FB25 /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E4D74A5C265A1DB60005FB25 /* StonksWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E4D74A5D265A1DB60005FB25 /* StonksWidget.swift */,
+				E4D74A5F265A1DB60005FB25 /* StonksWidget.intentdefinition */,
+				E4D74A60265A1DB90005FB25 /* Assets.xcassets */,
+				E4D74A62265A1DB90005FB25 /* Info.plist */,
+			);
+			path = StonksWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,13 +364,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C881ED26584A8700A5E839 /* Build configuration list for PBXNativeTarget "Stonks (iOS)" */;
 			buildPhases = (
+				EE4C15E9826879DA04BC7E40 /* [CP] Check Pods Manifest.lock */,
 				E4C881BF26584A8700A5E839 /* Sources */,
 				E4C881C026584A8700A5E839 /* Frameworks */,
 				E4C881C126584A8700A5E839 /* Resources */,
+				49850C69E12CCCD4B96D4115 /* [CP] Embed Pods Frameworks */,
+				E4D74A6B265A1DB90005FB25 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E4D74A66265A1DB90005FB25 /* PBXTargetDependency */,
 			);
 			name = "Stonks (iOS)";
 			productName = "Stonks (iOS)";
@@ -175,6 +385,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C881F026584A8700A5E839 /* Build configuration list for PBXNativeTarget "Stonks (macOS)" */;
 			buildPhases = (
+				B435A5C3FB080E26CA6AF480 /* [CP] Check Pods Manifest.lock */,
 				E4C881C726584A8700A5E839 /* Sources */,
 				E4C881C826584A8700A5E839 /* Frameworks */,
 				E4C881C926584A8700A5E839 /* Resources */,
@@ -224,6 +435,23 @@
 			productReference = E4C881DE26584A8700A5E839 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E4D74A56265A1DB60005FB25 /* StonksWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D74A68265A1DB90005FB25 /* Build configuration list for PBXNativeTarget "StonksWidgetExtension" */;
+			buildPhases = (
+				E4D74A53265A1DB60005FB25 /* Sources */,
+				E4D74A54265A1DB60005FB25 /* Frameworks */,
+				E4D74A55265A1DB60005FB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StonksWidgetExtension;
+			productName = StonksWidgetExtension;
+			productReference = E4D74A57265A1DB60005FB25 /* StonksWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,6 +475,9 @@
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = E4C881CA26584A8700A5E839;
 					};
+					E4D74A56265A1DB60005FB25 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = E4C881BA26584A8200A5E839 /* Build configuration list for PBXProject "Stonks" */;
@@ -266,6 +497,7 @@
 				E4C881CA26584A8700A5E839 /* Stonks (macOS) */,
 				E4C881D226584A8700A5E839 /* Tests iOS */,
 				E4C881DD26584A8700A5E839 /* Tests macOS */,
+				E4D74A56265A1DB60005FB25 /* StonksWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +507,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F8C9A32659827300AD3C09 /* GoogleService-Info.plist in Resources */,
+				E484C39C26598C2100F9161D /* success.json in Resources */,
 				E4C881E926584A8700A5E839 /* Assets.xcassets in Resources */,
+				E484C39B26598C2100F9161D /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,15 +536,105 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4D74A55265A1DB60005FB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D74AAA265A247B0005FB25 /* Assets.xcassets in Resources */,
+				E4D74A61265A1DB90005FB25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49850C69E12CCCD4B96D4115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stonks (iOS)/Pods-Stonks (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stonks (iOS)/Pods-Stonks (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stonks (iOS)/Pods-Stonks (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B435A5C3FB080E26CA6AF480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stonks (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4C15E9826879DA04BC7E40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stonks (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4C881BF26584A8700A5E839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C881E726584A8700A5E839 /* ContentView.swift in Sources */,
+				E484C38D26598B9E00F9161D /* SuccessView.swift in Sources */,
+				E4D74A64265A1DB90005FB25 /* StonksWidget.intentdefinition in Sources */,
+				E484C39326598BE700F9161D /* LottieView.swift in Sources */,
+				E449C37A265935FE003FF248 /* CourseDetail.swift in Sources */,
+				E484C381265987B300F9161D /* BlurView.swift in Sources */,
+				E4C8820C26585BA800A5E839 /* Sidebar.swift in Sources */,
+				E449C396265956EB003FF248 /* VisualEffectBlur.swift in Sources */,
+				E449C3652658E187003FF248 /* CourseItem.swift in Sources */,
+				E4C881FE2658522800A5E839 /* CourseRow.swift in Sources */,
+				E4D74A2F2659AAF10005FB25 /* TabBar.swift in Sources */,
+				E4F8C99026597C6400AD3C09 /* LoginView.swift in Sources */,
+				E484C38726598B9100F9161D /* LoadingView.swift in Sources */,
 				E4C881E526584A8700A5E839 /* StonksApp.swift in Sources */,
+				E484C37B265985FF00F9161D /* AppDelegate.swift in Sources */,
+				E4C882052658540700A5E839 /* CoursesView.swift in Sources */,
+				E4D74AC7265A27860005FB25 /* CourseList.swift in Sources */,
+				E449C3732659332F003FF248 /* CloseButton.swift in Sources */,
+				E449C36C265909D5003FF248 /* CourseModel.swift in Sources */,
+				E449C38F26595451003FF248 /* CourseRowModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +642,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C881E826584A8700A5E839 /* ContentView.swift in Sources */,
+				E4D74A3D265A0F5F0005FB25 /* SuccessView.swift in Sources */,
+				E449C37B265935FE003FF248 /* CourseDetail.swift in Sources */,
+				E4D74A3B265A0F5F0005FB25 /* BlurView.swift in Sources */,
+				E4D74A3C265A0F5F0005FB25 /* LottieView.swift in Sources */,
+				E4D74AC8265A27860005FB25 /* CourseList.swift in Sources */,
+				E4C8820D26585BA800A5E839 /* Sidebar.swift in Sources */,
+				E449C3662658E187003FF248 /* CourseItem.swift in Sources */,
+				E4D74A302659AAF10005FB25 /* TabBar.swift in Sources */,
+				E4C881FF2658522800A5E839 /* CourseRow.swift in Sources */,
 				E4C881E626584A8700A5E839 /* StonksApp.swift in Sources */,
+				E4C882062658540700A5E839 /* CoursesView.swift in Sources */,
+				E449C3742659332F003FF248 /* CloseButton.swift in Sources */,
+				E4F8C99126597C6400AD3C09 /* LoginView.swift in Sources */,
+				E449C36D265909D5003FF248 /* CourseModel.swift in Sources */,
+				E4D74A3A265A0F5F0005FB25 /* LoadingView.swift in Sources */,
+				E449C39026595451003FF248 /* CourseRowModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +677,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4D74A53265A1DB60005FB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D74A77265A1F600005FB25 /* CourseRowModel.swift in Sources */,
+				E4D74A94265A21950005FB25 /* CourseModel.swift in Sources */,
+				E4D74A63265A1DB90005FB25 /* StonksWidget.intentdefinition in Sources */,
+				E4D74A5E265A1DB60005FB25 /* StonksWidget.swift in Sources */,
+				E4D74AC0265A25340005FB25 /* CourseRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -350,6 +701,11 @@
 			isa = PBXTargetDependency;
 			target = E4C881CA26584A8700A5E839 /* Stonks (macOS) */;
 			targetProxy = E4C881DF26584A8700A5E839 /* PBXContainerItemProxy */;
+		};
+		E4D74A66265A1DB90005FB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4D74A56265A1DB60005FB25 /* StonksWidgetExtension */;
+			targetProxy = E4D74A65265A1DB90005FB25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -467,7 +823,9 @@
 		};
 		E4C881EE26584A8700A5E839 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8D07A5F467D25D6A67DC5A /* Pods-Stonks (iOS).debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,7 +846,9 @@
 		};
 		E4C881EF26584A8700A5E839 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE199D760FE001E5387B8EE /* Pods-Stonks (iOS).release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +870,7 @@
 		};
 		E4C881F126584A8700A5E839 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A027B5B39946DB24BE1092C /* Pods-Stonks (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -532,6 +893,7 @@
 		};
 		E4C881F226584A8700A5E839 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECC2DE312F9CC87623E0F4F /* Pods-Stonks (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -637,6 +999,51 @@
 			};
 			name = Release;
 		};
+		E4D74A69265A1DB90005FB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StonksWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archidev.Stonks.StonksWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4D74A6A265A1DB90005FB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StonksWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archidev.Stonks.StonksWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -681,6 +1088,15 @@
 			buildConfigurations = (
 				E4C881F726584A8700A5E839 /* Debug */,
 				E4C881F826584A8700A5E839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D74A68265A1DB90005FB25 /* Build configuration list for PBXNativeTarget "StonksWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D74A69265A1DB90005FB25 /* Debug */,
+				E4D74A6A265A1DB90005FB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
